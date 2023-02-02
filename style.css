@@ -8,11 +8,18 @@
 
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.deleteLocation{
+    display: inline-block;
+}
+
 
 .container {
     width: 621px;
@@ -181,9 +188,14 @@ span {
 }
 
 li {
-    margin: 14px 0;
+    margin-top: 8px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.021);
 }
-
+.deleteLocation{
+    float: right;
+    margin-right: 25px;
+}
 .forecast {
     display: flex;
     flex-direction: column;
